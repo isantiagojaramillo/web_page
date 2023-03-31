@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <title>Web Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+              <a href="#" class="navbar-brand">Menu</a>
+
+              <!-- Movil Button -->
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu"
+                aria-controls="menu"
+                aria-expanded="false"
+                aria-label="Mostrar / Ocultar"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <!-- Navegation Menu -->
+              <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Principal</a>
+                  </li>
+                  <!-- Dropdown -->
+                  <li class="nav-item dropdown">
+                    <a
+                      href="#"
+                      class="nav-link dropdown-toggle"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                      id="dropdown-menu"
+                    >
+                      Category
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdown-menu">
+                      <li><a href="#pictures" class="dropdown-item">Pictures</a></li>
+                      <li><a href="#videos" class="dropdown-item">Videos</a></li>
+                      <li><a href="#location" class="dropdown-item">Location</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="formulario.html" class="nav-link" target="_blank">Form</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="dashboard.html" class="nav-link" target="_blank">Dasboard</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="responsive.html" class="nav-link" target="_blank">Responsive</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <div class="col-12">
+          <div
+            class="carousel slide carousel-dark carousel-fade"
+            id="mi-carousel"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carousel-caption">
+                  <h1>Title</h1>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <img class="img-fluid" src="./utilities/carousel1.jpg" alt="" />
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img class="img-fluid" src="./utilities/carousel2.jpg" alt="" />
+              </div>
+              <div class="carousel-item">
+                <img class="img-fluid" src="./utilities/carousel3.jpg" alt="" />
+              </div>
+            </div>
+
+            <!-- Controles -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#mi-carousel"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon" aria-hidden="true">
+              </span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#mi-carousel"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon" aria-hidden="true">
+              </span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+
+            <!-- Indicadores -->
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                class="active"
+                data-bs-target="#mi-carousel"
+                data-bs-slide-to="0"
+                aria-label="Slide 1"
+              ></button>
+
+              <button
+                type="button"
+                class=""
+                data-bs-target="#mi-carousel"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+
+              <button
+                type="button"
+                class=""
+                data-bs-target="#mi-carousel"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- TEXT -->
+      <section>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+          iste mollitia, quae debitis nulla pariatur tempora ducimus eligendi
+          fugit repellendus eum alias est sit aut sint! Ipsa eveniet voluptatem
+          vel dignissimos sit quas corrupti iusto porro quod assumenda veniam
+          placeat dolorem nisi cupiditate repudiandae asperiores necessitatibus
+          vitae cum dolores nostrum fuga aliquam amet, sint expedita. Nisi
+          cupiditate dolores reiciendis expedita minima, nesciunt recusandae
+          quam optio in accusamus, est eius ipsam voluptatem dolorum,
+          praesentium sed possimus obcaecati deleniti. Similique expedita
+          deleniti cum eum porro in consequuntur quis sunt inventore
+          dignissimos, facere recusandae veritatis sequi cumque? Nemo nulla
+          expedita voluptatem unde soluta?
+        </p>
+
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+          in reprehenderit quas itaque esse, placeat ducimus rem tempore dicta
+          at, deleniti quam similique consectetur mollitia, obcaecati molestias
+          ullam cumque. Iusto in, ipsam cumque rem corrupti magnam praesentium
+          nesciunt voluptates. Sunt animi molestiae provident minima magnam
+          consequuntur harum vitae iure accusantium aliquam dolor fugit repellat
+          consequatur amet mollitia delectus, odit aspernatur modi quidem
+          similique explicabo sequi? Laborum facere aut cumque quidem voluptatum
+          tempora error porro distinctio, fuga ducimus officia esse nihil sit
+          numquam illum. Maxime incidunt distinctio ut sapiente, error
+          necessitatibus id commodi officia voluptate debitis reprehenderit non
+          hic! Recusandae, qui.
+        </p>
+      </section>
+
+      <!-- PICTURES -->
+      <section>
+        <h2 class="text-center" id="pictures">Pictures</h2>
+        <hr />
+        <div class="col-12 d-flex justify-content-between">
+          <div>
+            <figure class="figure">
+              <img
+                class="img-fluid rounded"
+                src="./utilities/bg.jpg"
+                width="400"
+                alt=""
+              />
+              <figcaption class="figure-caption">
+                <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div>
+            <figure class="figure">
+              <img
+                class="img-fluid rounded"
+                src="./utilities/bg2.jpg"
+                width="400"
+                alt=""
+              />
+              <figcaption class="figure-caption">
+                <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div>
+            <figure class="figure">
+              <img
+                class="img-fluid rounded"
+                src="./utilities/bg3.jpg"
+                width="400"
+                alt=""
+              />
+              <figcaption class="figure-caption">
+                <p class="text-center">Lorem ipsum dolor sit amet.</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIDEOS -->
+      <section>
+        <h2 class="text-center" id="videos">Videos</h2>
+        <hr />
+        <div class="d-flex justify-content-around">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/CWSqYpx32Dk"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/a37KMrSVh-k"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <br />
+
+    <footer>
+      <h2 class="text-center" id="location">Location</h2>
+      <hr />
+      <div class="col-12">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.426209263788!2d-75.5742879855512!3d6.207378028480383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429fa7b691b0d%3A0x898714204dde8a74!2sGlobant!5e0!3m2!1sen!2sco!4v1680206085047!5m2!1sen!2sco"
+          width="1350"
+          height="600"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <hr />
+      <div class="text-center">
+        <p>Santiago Jaramillo - Developer</p>
+        <p>Software Development</p>
+        <p>Introducción a la Programación</p>
+        <p>CESDE - 2023</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
